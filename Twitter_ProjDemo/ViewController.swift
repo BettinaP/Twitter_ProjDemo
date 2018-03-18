@@ -8,6 +8,7 @@
 
 import UIKit
 import TwitterKit
+import SafariServices
 
 class ViewController: UIViewController {
     
@@ -19,7 +20,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        let logInButton = TWTRLogInButton(logInCompletion: { session, error in
+            if (session != nil) {
+                print("signed in as \(session?.userName)")
+            } else {
+                print("error: \(error?.localizedDescription)")
+            }
+        })
+        
+        logInButton.center = self.view.center
+        self.view.addSubview(logInButton)
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -27,9 +39,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func logInWithTwitterTapped(_ sender: UIButton) {
-        
-    }
+   
     
     
 }
