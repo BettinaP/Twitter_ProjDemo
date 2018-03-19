@@ -67,3 +67,4 @@ fastlane/screenshots
 fastlane/test_output
 
 Secrets.swift
+Info.plist

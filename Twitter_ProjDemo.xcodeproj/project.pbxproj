@@ -30,7 +30,7 @@
 		DE5DF2132055E53100DF0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5DF2192055E56900DF0E76 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		DE5DF21B2056039100DF0E76 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
-		DE5DF21D205F172700DF0E76 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DE5DF21E205F4F9800DF0E76 /* Twitter_ProjDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitter_ProjDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				DE5DF2102055E53100DF0E76 /* LaunchScreen.storyboard */,
 				DE5DF2132055E53100DF0E76 /* Info.plist */,
 				DE5DF2192055E56900DF0E76 /* Secrets.swift */,
-				DE5DF21D205F172700DF0E76 /* Bridging-Header.h */,
+				DE5DF21E205F4F9800DF0E76 /* Twitter_ProjDemo-Bridging-Header.h */,
 			);
 			path = Twitter_ProjDemo;
 			sourceTree = "<group>";
@@ -131,6 +131,7 @@
 				TargetAttributes = {
 					DE5DF2032055E53000DF0E76 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -360,12 +361,15 @@
 			baseConfigurationReference = 558FF2023DE99D295D4223F3 /* Pods-Twitter_ProjDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PC6SC7E96K;
 				INFOPLIST_FILE = Twitter_ProjDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BP.Twitter-ProjDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter_ProjDemo/Twitter_ProjDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -376,12 +380,14 @@
 			baseConfigurationReference = B990DAFCCCD79590CAB7EF61 /* Pods-Twitter_ProjDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PC6SC7E96K;
 				INFOPLIST_FILE = Twitter_ProjDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BP.Twitter-ProjDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter_ProjDemo/Twitter_ProjDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
