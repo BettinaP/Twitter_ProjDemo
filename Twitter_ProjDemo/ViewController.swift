@@ -32,7 +32,13 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
         
-      
+         TWTRTwitter.sharedInstance().logIn { (session, error) in
+                    if session != nil {
+                        print("signed in as \(session?.userName)")
+                    } else {
+                        print("error: \(error?.localizedDescription)")
+                    }
+                }
         
     }
     
