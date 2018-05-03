@@ -8,28 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		74E8BF0E1D15619DA67B3A3D /* Pods_Twitter_ProjDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792B1086F99C378DC00E6454 /* Pods_Twitter_ProjDemo.framework */; };
+		DE04404020746B0D009E7497 /* HomeTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04403F20746B0C009E7497 /* HomeTimelineViewController.swift */; };
+		DE0440442076D135009E7497 /* LaunchProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0440432076D135009E7497 /* LaunchProgressViewController.swift */; };
+		DE0440462076EE42009E7497 /* TwitterLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0440452076EE42009E7497 /* TwitterLoginViewController.swift */; };
 		DE5DF2082055E53000DF0E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DF2072055E53000DF0E76 /* AppDelegate.swift */; };
-		DE5DF20A2055E53000DF0E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DF2092055E53000DF0E76 /* ViewController.swift */; };
-		DE5DF20D2055E53100DF0E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5DF20B2055E53100DF0E76 /* Main.storyboard */; };
+		DE5DF20A2055E53000DF0E76 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DF2092055E53000DF0E76 /* LoginViewController.swift */; };
 		DE5DF20F2055E53100DF0E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5DF20E2055E53100DF0E76 /* Assets.xcassets */; };
 		DE5DF2122055E53100DF0E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5DF2102055E53100DF0E76 /* LaunchScreen.storyboard */; };
 		DE5DF21A2055E56A00DF0E76 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DF2192055E56900DF0E76 /* Secrets.swift */; };
-		DE5DF21C2056039100DF0E76 /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5DF21B2056039100DF0E76 /* SafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		558FF2023DE99D295D4223F3 /* Pods-Twitter_ProjDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter_ProjDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter_ProjDemo/Pods-Twitter_ProjDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		792B1086F99C378DC00E6454 /* Pods_Twitter_ProjDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter_ProjDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B990DAFCCCD79590CAB7EF61 /* Pods-Twitter_ProjDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter_ProjDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter_ProjDemo/Pods-Twitter_ProjDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DE04403F20746B0C009E7497 /* HomeTimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimelineViewController.swift; sourceTree = "<group>"; };
+		DE0440432076D135009E7497 /* LaunchProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchProgressViewController.swift; sourceTree = "<group>"; };
+		DE0440452076EE42009E7497 /* TwitterLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLoginViewController.swift; sourceTree = "<group>"; };
 		DE5DF2042055E53000DF0E76 /* Twitter_ProjDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter_ProjDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5DF2072055E53000DF0E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE5DF2092055E53000DF0E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE5DF20C2055E53100DF0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5DF2092055E53000DF0E76 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DE5DF20E2055E53100DF0E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5DF2112055E53100DF0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5DF2132055E53100DF0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE5DF2192055E56900DF0E76 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
-		DE5DF21B2056039100DF0E76 /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
 		DE5DF21E205F4F9800DF0E76 /* Twitter_ProjDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitter_ProjDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,9 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				DE5DF2072055E53000DF0E76 /* AppDelegate.swift */,
-				DE5DF2092055E53000DF0E76 /* ViewController.swift */,
-				DE5DF21B2056039100DF0E76 /* SafariViewController.swift */,
-				DE5DF20B2055E53100DF0E76 /* Main.storyboard */,
+				DE0440432076D135009E7497 /* LaunchProgressViewController.swift */,
+				DE0440452076EE42009E7497 /* TwitterLoginViewController.swift */,
+				DE5DF2092055E53000DF0E76 /* LoginViewController.swift */,
+				DE04403F20746B0C009E7497 /* HomeTimelineViewController.swift */,
 				DE5DF20E2055E53100DF0E76 /* Assets.xcassets */,
 				DE5DF2102055E53100DF0E76 /* LaunchScreen.storyboard */,
 				DE5DF2132055E53100DF0E76 /* Info.plist */,
@@ -161,7 +164,6 @@
 			files = (
 				DE5DF2122055E53100DF0E76 /* LaunchScreen.storyboard in Resources */,
 				DE5DF20F2055E53100DF0E76 /* Assets.xcassets in Resources */,
-				DE5DF20D2055E53100DF0E76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5DF20A2055E53000DF0E76 /* ViewController.swift in Sources */,
+				DE04404020746B0D009E7497 /* HomeTimelineViewController.swift in Sources */,
+				DE0440442076D135009E7497 /* LaunchProgressViewController.swift in Sources */,
+				DE5DF20A2055E53000DF0E76 /* LoginViewController.swift in Sources */,
 				DE5DF21A2055E56A00DF0E76 /* Secrets.swift in Sources */,
-				DE5DF21C2056039100DF0E76 /* SafariViewController.swift in Sources */,
+				DE0440462076EE42009E7497 /* TwitterLoginViewController.swift in Sources */,
 				DE5DF2082055E53000DF0E76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,14 +234,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE5DF20B2055E53100DF0E76 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE5DF20C2055E53100DF0E76 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE5DF2102055E53100DF0E76 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
